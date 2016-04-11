@@ -3,6 +3,11 @@ package com.typeorigin.javaperformance.chapter6.lockrace9;
 import java.util.List;
 import java.util.concurrent.Callable;
 
+/**
+ * 
+ * @author Sam Zhang
+ *
+ */
 public class DbInitializer implements Callable<DbInitializerFuture> {
 	private TaxPayerBailoutDB db;
 	private List<String>[] taxPayerList;

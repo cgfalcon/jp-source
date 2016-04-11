@@ -1,5 +1,10 @@
 package com.typeorigin.javaperformance.chapter6.lockrace9;
 
+/**
+ * 
+ * @author Sam Zhang
+ *
+ */
 public class DbInitializerFuture {
 	private int recordsCreated;
 
